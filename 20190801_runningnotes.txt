@@ -1,0 +1,70 @@
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ pwd
+/c/Users/kvmohan/devops_mohan
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ pwd
+/c/Users/kvmohan/devops_mohan
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git branch -r
+  origin/HEAD -> origin/master
+  origin/master
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git fetch
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/kvmohan/devops_mohan
+ * [new branch]      mohan1     -> origin/mohan1
+ * [new branch]      mohan2     -> origin/mohan2
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git pull
+Already up to date.
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git branch -r
+  origin/HEAD -> origin/master
+  origin/master
+  origin/mohan1
+  origin/mohan2
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git branch
+* master
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git pull
+Already up to date.
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ pwd
+/c/Users/kvmohan/devops_mohan
