@@ -1,4 +1,3 @@
-
 kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
 $ pwd
 /c/Users/kvmohan/devops_mohan
@@ -16,6 +15,7 @@ $ pwd
 
 kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
 $ git status
+
 On branch master
 Your branch is up to date with 'origin/master'.
 
@@ -36,12 +36,6 @@ Unpacking objects: 100% (6/6), done.
 From https://github.com/kvmohan/devops_mohan
  * [new branch]      mohan1     -> origin/mohan1
  * [new branch]      mohan2     -> origin/mohan2
-
-kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
-$
-
-kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
-$
 
 kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
 $
@@ -68,3 +62,67 @@ Already up to date.
 kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
 $ pwd
 /c/Users/kvmohan/devops_mohan
+
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git status
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        20190801_runningnotes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git add 20190801_runningnotes.txt
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   20190801_runningnotes.txt
+
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git commit -m "OurFirstCommit"
+[master 2b56c63] OurFirstCommit
+ 1 file changed, 70 insertions(+)
+ create mode 100644 20190801_runningnotes.txt
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': vamsi_kvm
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kvmohan/devops_mohan/'
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 680 bytes | 226.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kvmohan/devops_mohan
+   72129ed..2b56c63  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+kvmohan@INBAN-JFB68S2 MINGW64 ~/devops_mohan (master)
+$
